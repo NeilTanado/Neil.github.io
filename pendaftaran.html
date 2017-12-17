@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Manchester City Club Online </title>
+    <link href="formstyle.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+<!-- ini untuk akalin background aspect ratio supaya full width & height -->
+<div class="bg-div"></div>
+
+<!-- untuk akalin supaya container selalu di tengah -->
+<div class="login-div">
+
+<form action="home.html" method="get">
+
+    <div class="form-elem-container">
+      <div>
+        <h1>Sign Up Form</h1>
+      </div>
+
+      <table class="tb1">
+        <tr>
+            <td>
+                <h2>Login ID</h2>
+            </td>
+            <td>
+                <input type="text" name="txtUser" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Password</h2>
+            </td>
+            <td>
+                <input type="password" name="txtPass" />
+            </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="form-elem-container">
+      <a href="welcome.html"><input type="submit" value="login" /></a>
+    </div>
+
+</form>
+
+<!-- form action untuk sign up -->
+<form action="home.html" method="get">
+
+    <div class="form-elem-container">
+
+      <div>
+        <h1>Registration Form</h1>
+      </div>
+
+        <table class="tb2">
+            <tr>
+                <td>
+                    <h3>First name</h3>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="txtFirstName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Last name</h3>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="txtLastName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Email</h3>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="txtEmail" />
+                </td>
+            </tr>
+            <tr>
+              <td>
+                  <h3>Gender</h3>
+              </td>
+              <td>
+                  <input name="txtGender" type="radio" checked="checked">Male
+              </td>
+              <td>
+                  <input name="txtGender" type="radio">Female
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <h3>Nationality</h3>
+              </td>
+              <td colspan="2">
+                  <select name="txtNationality">
+                    <option value="Asian">Asian</option>
+                    <option value="Europe">Europe</option>
+                    <option value="American">American</option>
+                    <option value="African">African</option>
+                  </select>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  <h3>About City</h3>
+                </td>
+                <td colspan="2">
+                  <textarea name="txtAboutCity" rows="5" cols="20"></textarea>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+      <div class="form-elem-container">
+        <a href="welcome.html"><input type="submit" value="sign up"></a>
+      </div>
+</form>
+
+<!-- Tutup div untuk class login-div -->
+</div>
+</body>
+</html>
+

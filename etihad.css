@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    font-family: 'trebbuchet MS';
+    font-size: 50px;
+    font-weight: 50px;
+}
+body{
+    text-align: center;
+    background: lightblue
+}
+p{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight:30px;
+}
+
+input[type="button"]{
+  text-transform: uppercase;
+  background-color: rgb(57, 167, 187);
+  border: none;
+  min-width: 100px;
+  min-height: 30px;
+  color: black;
+  box-shadow: 2px 2px 5px #3b3c3d;
+  border-radius: 15px;
+  font-weight:40px;
+}

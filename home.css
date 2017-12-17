@@ -1,0 +1,22 @@
+div{
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+    background: #4286f4;
+    border: 5px solid maroon;
+    border-radius:10px
+}
+
+  header{
+      font-weight:35px;
+      font-size:50px;
+    text-align:center;
+    font-family: 'Lucida Sans';
+    margin: 50px;
+  }
+ html{
+      background:lightblue;
+  }
+  body{
+      text-align: center;
+    }
