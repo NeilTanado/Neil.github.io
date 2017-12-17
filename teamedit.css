@@ -28,3 +28,7 @@ body{
 p{
   margin:15px;
 }
+img{
+  width: 600px;
+  height: 500px;
+}
